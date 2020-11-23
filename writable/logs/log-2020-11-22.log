@@ -1,0 +1,79 @@
+CRITICAL - 2020-11-22 08:32:05 --> syntax error, unexpected 'base_url' (T_STRING)
+#0 C:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('users_create_us...', Array, true)
+#1 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(26): view('users_create_us...')
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->create()
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-22 08:33:28 -->  route cannot be found while reverse-routing.
+#0 C:\laragon\www\belajar-ci\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\laragon\www\belajar-ci\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\laragon\www\belajar-ci\app\Views\users_create_user.php(34): redirect('admin/users/ind...')
+#3 C:\laragon\www\belajar-ci\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#4 C:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('users_create_us...', Array, true)
+#5 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(26): view('users_create_us...')
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->create()
+#7 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-22 08:35:00 --> Undefined variable: title
+#0 C:\laragon\www\belajar-ci\app\Views\about_index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 6, Array)
+#1 C:\laragon\www\belajar-ci\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('about_index', Array, true)
+#3 C:\laragon\www\belajar-ci\app\Controllers\About.php(7): view('about_index')
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\About->about()
+#5 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-22 08:35:35 --> Undefined variable: id
+#0 C:\laragon\www\belajar-ci\app\Views\about_index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 11, Array)
+#1 C:\laragon\www\belajar-ci\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('about_index', Array, true)
+#3 C:\laragon\www\belajar-ci\app\Controllers\About.php(7): view('about_index')
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\About->about()
+#5 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-22 09:25:35 --> Invalid file: template/v_header.php
+#0 C:\laragon\www\belajar-ci\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/v_head...')
+#1 C:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('template/v_head...', Array, true)
+#2 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(30): view('template/v_head...')
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->edit('1')
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#5 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-22 09:25:54 --> Class 'App\Controllers\Admin\UsersModel' not found
+#0 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->delete('14')
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-22 09:26:50 --> Invalid file: template/v_header.php
+#0 C:\laragon\www\belajar-ci\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/v_head...')
+#1 C:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('template/v_head...', Array, true)
+#2 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(30): view('template/v_head...')
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->edit('12')
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#5 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-22 09:28:11 --> Class 'App\Controllers\Admin\UsersModel' not found
+#0 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->edit('12')
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-22 09:30:55 --> Invalid file: template/v_header.php
+#0 C:\laragon\www\belajar-ci\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/v_head...')
+#1 C:\laragon\www\belajar-ci\system\Common.php(1119): CodeIgniter\View\View->render('template/v_head...', Array, true)
+#2 C:\laragon\www\belajar-ci\app\Controllers\Admin\Users.php(30): view('template/v_head...')
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->edit('12')
+#4 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#5 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

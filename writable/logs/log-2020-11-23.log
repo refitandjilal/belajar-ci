@@ -1,0 +1,43 @@
+CRITICAL - 2020-11-23 07:43:45 --> Class Home does not exist
+#0 C:\laragon\www\belajar-ci\system\Debug\Toolbar\Collectors\Routes.php(107): ReflectionMethod->__construct('Home', '_remap')
+#1 C:\laragon\www\belajar-ci\system\Debug\Toolbar\Collectors\BaseCollector.php(307): CodeIgniter\Debug\Toolbar\Collectors\Routes->display()
+#2 C:\laragon\www\belajar-ci\system\Debug\Toolbar.php(128): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#3 C:\laragon\www\belajar-ci\system\Debug\Toolbar.php(356): CodeIgniter\Debug\Toolbar->run(1606139024.7414, 0.4691, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#4 C:\laragon\www\belajar-ci\system\Filters\DebugToolbar.php(78): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#5 C:\laragon\www\belajar-ci\system\Filters\Filters.php(199): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('', 'after')
+#7 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-23 07:47:46 --> Class Home does not exist
+#0 C:\laragon\www\belajar-ci\system\Debug\Toolbar\Collectors\Routes.php(107): ReflectionMethod->__construct('Home', '_remap')
+#1 C:\laragon\www\belajar-ci\system\Debug\Toolbar\Collectors\BaseCollector.php(307): CodeIgniter\Debug\Toolbar\Collectors\Routes->display()
+#2 C:\laragon\www\belajar-ci\system\Debug\Toolbar.php(128): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#3 C:\laragon\www\belajar-ci\system\Debug\Toolbar.php(356): CodeIgniter\Debug\Toolbar->run(1606139266.7894, 0.0216, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#4 C:\laragon\www\belajar-ci\system\Filters\DebugToolbar.php(78): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#5 C:\laragon\www\belajar-ci\system\Filters\Filters.php(199): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('', 'after')
+#7 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-23 07:48:05 --> Class Home does not exist
+#0 C:\laragon\www\belajar-ci\system\Debug\Toolbar\Collectors\Routes.php(107): ReflectionMethod->__construct('Home', '_remap')
+#1 C:\laragon\www\belajar-ci\system\Debug\Toolbar\Collectors\BaseCollector.php(307): CodeIgniter\Debug\Toolbar\Collectors\Routes->display()
+#2 C:\laragon\www\belajar-ci\system\Debug\Toolbar.php(128): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#3 C:\laragon\www\belajar-ci\system\Debug\Toolbar.php(356): CodeIgniter\Debug\Toolbar->run(1606139285.9154, 0.0542, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#4 C:\laragon\www\belajar-ci\system\Filters\DebugToolbar.php(78): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#5 C:\laragon\www\belajar-ci\system\Filters\Filters.php(199): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('', 'after')
+#7 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-23 11:46:29 --> Undefined variable: totalTime
+#0 C:\laragon\www\belajar-ci\system\Debug\Toolbar\Views\toolbar.tpl.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 56, Array)
+#1 C:\laragon\www\belajar-ci\system\Debug\Toolbar.php(498): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\belajar-ci\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\laragon\www\belajar-ci\app\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\laragon\www\belajar-ci\system\Events\Events.php(188): call_user_func(Object(Closure))
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(293): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
